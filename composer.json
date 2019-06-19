@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:4c0n/slack-bundle.git"
+            "url": "git@github.com:4c0n/slack.git"
         }
     ],
     "require": {
