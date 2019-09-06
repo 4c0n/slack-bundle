@@ -9,15 +9,9 @@
             "email": "soullivaneuh@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:4c0n/slack.git"
-        }
-    ],
     "require": {
         "php": "^7.1",
-        "nexylan/slack": "dev-feature/throw-exception-when-response-status-code-not-200",
+        "nexylan/slack": "dev-master#dcc753127a23483f7f89a44bfc0750a6a300990a",
         "php-http/httplug-bundle": "^1.8",
         "symfony/http-kernel": "^3.4 || ^4.0"
     },
