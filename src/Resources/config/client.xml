@@ -7,7 +7,6 @@
     <services>
         <service id="nexy_slack.error_response_handler" class="Nexy\Slack\ErrorResponseHandler" />
         <service id="nexy_slack.client" class="Nexy\Slack\Client" public="true">
-            <argument type="service" id="nexy_slack.error_response_handler" />
             <argument>%nexy_slack.endpoint%</argument>
             <argument>%nexy_slack.config%</argument>
             <argument type="service" id="nexy_slack.http.client" />
